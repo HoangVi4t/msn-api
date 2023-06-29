@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "359914160d9948861c6087eb47f1516e",
+    "content-hash": "793e0ef7a1457b548ec5cc00a9437d4c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5454,6 +5454,61 @@
                 }
             ],
             "time": "2023-05-25T13:09:35+00:00"
+        },
+        {
+            "name": "thomasmarinissen/laravel-vercel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ThomasMarinissen/laravel-vercel.git",
+                "reference": "8531cb40e99751fc00d5333ab55aebcbec72feb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ThomasMarinissen/laravel-vercel/zipball/8531cb40e99751fc00d5333ab55aebcbec72feb5",
+                "reference": "8531cb40e99751fc00d5333ab55aebcbec72feb5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^7.0|^8.0|^9.0|^10.0",
+                "illuminate/container": "^7.0|^8.0|^9.0|^10.0",
+                "illuminate/encryption": "^7.0|^8.0|^9.0|^10.0",
+                "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
+                "php": "^7.4|^8.0|^8.1|^8.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ThomasMarinissen\\LaravelVercel\\VercelServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ThomasMarinissen\\LaravelVercel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Marinissen"
+                }
+            ],
+            "description": "Integration to run Laravel on Vercel",
+            "keywords": [
+                "laravel",
+                "vercel"
+            ],
+            "support": {
+                "issues": "https://github.com/ThomasMarinissen/laravel-vercel/issues",
+                "source": "https://github.com/ThomasMarinissen/laravel-vercel/tree/master"
+            },
+            "time": "2023-04-17T19:38:16+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
